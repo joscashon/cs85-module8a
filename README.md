@@ -11,13 +11,13 @@ This project demonstrates Laravel application configuration with MySQL database 
 
 ## Security Notes
 
-⚠️ **Important**: If you accidentally commit sensitive data (like APP_KEY) to a public repository:
+**Important**: If you accidentally commit sensitive data like APP_KEY to a public repository:
 1. Immediately generate a new key: `php artisan key:generate`
 2. Remove the sensitive data from your `.env.example` file
 3. Commit and push the cleaned version
 4. Consider the old key compromised and never use it again
 
-For this project, a new APP_KEY was generated after the original was accidentally included in the initial commit.
+For this project, a new APP_KEY was generated after the original was accidentally included in the initial commit while following the assignment instructions to copy the `.env` file to `.env.example` before pushing to the github repository.
 
 ## Setup Instructions
 
